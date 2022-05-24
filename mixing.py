@@ -62,7 +62,6 @@ def crearCombinacion(numeroCombinaciones):
         imagenFondo.convert('RGB').save(
             "OldSkull{contador}.png".format(contador=i+1), "PNG", optimize=True)
         
-        #imagenFondo.save("OldSkull{contador}.jpeg".format(contador = i+1))
 
 if __name__ == "__main__":
     numeroCombinaciones = int(input("numero de combinaciones: "))
